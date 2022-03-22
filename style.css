@@ -2,45 +2,50 @@
     box-sizing: border-box;
 }
 
-.mailBg {
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
     background-color: #F5F6FA;
 }
 
 .mailList {    
-    margin-left: auto;
-    margin-right: auto;
     width: 50vw;
     font-weight: bold;
 }
 
 .listCont {
     display: flex;
-    justify-content: center;
     align-items: center;
     border: 1px solid #DADADA;
     background-color: #FFFFFF;
+    padding: 15px;
 }
 
 .mailCont {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+h6 {
+    font-size: 14px;;
 }
 
 h6, p {
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .imgPb {
     width: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .imgAvt {
     width: 60px;
     border-radius: 50%;
-    margin-left: 15px;
     margin-right: 15px;
 }
+
