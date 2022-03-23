@@ -24,6 +24,14 @@ body {
     padding: 15px;
 }
 
+.listCont-1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #DADADA;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
 .mailCont {
     margin-bottom: 20px;
 }
@@ -49,3 +57,35 @@ h6, p {
     margin-right: 15px;
 }
 
+.messageCounter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonStyle {
+    border: 2px solid #1078ef;
+    border-radius: 5px;
+    padding: auto;
+    background-color: transparent;
+    color: #1078ef;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.inputStyle {
+    width: 50%;
+    padding: 10px 0 10px 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid #DADADA;
+    border-radius: 5px;
+}
+
+.inputStyle-addTxt {
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid #DADADA;
+    border-radius: 5px;
+}
