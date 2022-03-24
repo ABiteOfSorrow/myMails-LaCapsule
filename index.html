@@ -7,38 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- mail body -->
     <div class="mailBg">
-        <div class="mailList">
+        <!-- mail list body -->
+        <div id="mailList">
+            <!-- message counter bar -->
             <div class="messageCounter listCont-1">
                 <p class="mailCont">Messages<br> total:</p>
                 <p class="countNumber">0</p>
                 <input class="inputStyle" type="text" placeholder="search message">
-                <button class="buttonStyle" type="submit">Search</button>
-             </div>
-          <div class="messageCounter listCont-1">
-            <input class="inputStyle-addTxt" type="text" placeholder="new message">
-            <button class="buttonStyle" type="submit">Add</button>                 
+                <button class="buttonStyle" id="searchBtn" type="submit" name="searchBtn">Search</button>
             </div>
+            <!-- message add bar -->
+            <div class="messageCounter listCont-1">
+                <input class="inputStyle-addTxt" id="newMessageTxt" type="text" placeholder="new message">
+                <button class="buttonStyle" id="addBtn" type="submit" name="addBtn">Add</button>
+            </div>
+            <!-- deafult message List -->
             <div class="listCont">
-                    <img class="imgAvt" src="assets/avatar-1.jpg">
+                <!-- avatar image -->
+                <img class="imgAvt" src="assets/avatar-1.jpg">
                 <div>
+                    <!-- name -->
                     <h6>Noel Paganelli</h6>
+                    <!-- message text -->
                     <P class="mailCont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel nibh metus.
                         Curabitur vitae quam quis tellus suscipit congue. Duis eget mauris semper, faucibus sem ut,
                         pharetra
                         est. Donec varius vestibulum eleifend. Donec vulputate orci eu diam consectetur posuere. Ut urna
                         nunc, ultrices nec ante quis, accumsan vulputate erat.</P>
                 </div>
-                    <img class="imgPb" src="assets/trash.png">
-             </div>
+                <!-- trash image -->
+                <img class="imgPb" src="assets/trash.png">
+            </div>
             <div class="listCont">
-                    <img class="imgAvt" src="assets/avatar-2.jpg">
+                <img class="imgAvt" src="assets/avatar-2.jpg">
                 <div>
                     <h6>Elise Watson</h6>
                     <P class="mailCont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel nibh metus.
@@ -47,7 +57,7 @@
                         est. Donec varius vestibulum eleifend. Donec vulputate orci eu diam consectetur posuere. Ut urna
                         nunc, ultrices nec ante quis, accumsan vulputate erat.</P>
                 </div>
-                    <img class="imgPb" src="assets/trash.png">
+                <img class="imgPb" src="assets/trash.png">
             </div>
             <div class="listCont">
                 <div>
@@ -61,10 +71,10 @@
                         est. Donec varius vestibulum eleifend. Donec vulputate orci eu diam consectetur posuere. Ut urna
                         nunc, ultrices nec ante quis, accumsan vulputate erat.</P>
                 </div>
-                    <img class="imgPb" src="assets/trash.png">
+                <img class="imgPb" src="assets/trash.png">
             </div>
             <div class="listCont">
-                    <img class="imgAvt" src="assets/avatar-4.jpg">
+                <img class="imgAvt" src="assets/avatar-4.jpg">
                 <div>
                     <h6>Alexandra Pozi</h6>
                     <P class="mailCont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel nibh metus.
@@ -73,10 +83,10 @@
                         est. Donec varius vestibulum eleifend. Donec vulputate orci eu diam consectetur posuere. Ut urna
                         nunc, ultrices nec ante quis, accumsan vulputate erat.</P>
                 </div>
-                    <img class="imgPb" src="assets/trash.png">
+                <img class="imgPb" src="assets/trash.png">
             </div>
             <div class="listCont">
-                    <img class="imgAvt" src="assets/avatar-5.jpg">
+                <img class="imgAvt" src="assets/avatar-5.jpg">
                 <div>
                     <h6>Zoe Millot</h6>
                     <P class="mailCont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel nibh metus.
@@ -85,11 +95,11 @@
                         est. Donec varius vestibulum eleifend. Donec vulputate orci eu diam consectetur posuere. Ut urna
                         nunc, ultrices nec ante quis, accumsan vulputate erat.</P>
                 </div>
-                    <img class="imgPb" src="assets/trash.png">
+                <img class="imgPb" src="assets/trash.png">
+
             </div>
         </div>
     </div>
-
 
     <script src='script.js'></script>
 </body>

@@ -11,7 +11,7 @@ body {
     background-color: #F5F6FA;
 }
 
-.mailList {    
+#mailList {    
     width: 50vw;
     font-weight: bold;
 }
@@ -47,8 +47,8 @@ h6, p {
 
 .imgPb {
     width: 15px;
+    margin-right: 5px;
     margin-left: auto;
-    margin-right: auto;
     cursor: pointer;
 }
 
